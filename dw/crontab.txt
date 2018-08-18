@@ -1,0 +1,6 @@
+5 0 * * * source /etc/profile && source ~/.bashrc && sh /data2/gsj/mongoexport_last_day.sh nsms >> /data2/gsj/log/mld_nsms.log 2>&1
+20 0 * * * source /etc/profile && source ~/.bashrc && sh /data2/gsj/mongoexport_last_day.sh ncallrecords >> /data2/gsj/log/mld_ncallrecords.log 2>&1
+40 0 * * * source /etc/profile && source ~/.bashrc && sh /data2/gsj/mongoexport_last_day.sh ncontacts >> /data2/gsj/log/mld_ncontacts.log 2>&1
+0 1 * * * source /etc/profile && source ~/.bashrc && sh /data2/gsj/mongoexport_last_day.sh lbs >> /data2/gsj/log/mld_lbs.log 2>&1
+20 1 * * * source /etc/profile && source ~/.bashrc && sh /data2/gsj/mongoexport_last_day.sh mobile >> /data2/gsj/log/mld_mobile.log 2>&1
+40 1 * * * source /etc/profile && source ~/.bashrc && sh /data2/gsj/mongoexport_last_day.sh share_userinfo_logs >> /data2/gsj/log/mld_share_userinfo_logs.log 2>&1

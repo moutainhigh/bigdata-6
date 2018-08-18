@@ -1,0 +1,28 @@
+name := "ql_etl"
+
+version := "1.0"
+
+scalaVersion := "2.10.5"
+
+libraryDependencies += "org.apache.spark" %% "spark-core" % "1.6.0"
+
+libraryDependencies += "org.apache.spark" %% "spark-streaming" % "1.6.0"
+
+libraryDependencies += "org.apache.spark" %% "spark-mllib" % "1.6.0"
+
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "1.6.0"
+
+libraryDependencies += "com.databricks" % "spark-csv_2.10" % "1.5.0"
+
+libraryDependencies += "joda-time" % "joda-time" % "2.9.9"
+
+libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.16"
+
+libraryDependencies += "org.apache.spark" %% "spark-hive" % "1.6.0"
+
+libraryDependencies += "org.json4s" % "json4s-jackson_2.10" % "3.5.2"
+
+libraryDependencies += "org.json4s" %% "json4s-native" % "3.5.2"
+
+libraryDependencies += "com.alibaba" % "fastjson" % "1.2.35"
+    
